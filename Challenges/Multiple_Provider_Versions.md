@@ -55,8 +55,8 @@
 Explanation:
 1. Provider Aliases:
 
-    a. Define multiple instances of the same provider using the alias argument.
-    b. Each instance can have its own version and configuration.
+    1. Define multiple instances of the same provider using the alias argument.
+    2. Each instance can have its own version and configuration.
 
 2. Resource Association:
    Use the provider argument in resource blocks to associate the resource with a specific provider alias.
