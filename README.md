@@ -183,6 +183,22 @@ terraform workspace select  # Switches to a different workspace
 terraform login
 ```
 
+## 16. `terraform apply -target=aws_instance.example`
+**Purpose**: If the file you want to execute defines specific resources, you can use the -target flag with terraform apply or terraform plan to target those resources explicitly.
+
+For example, if ec2.tf defines a resource like:
+```hcl
+resource "aws_instance" "example" {
+  ami           = "ami-0c55b159cbfafe1f0"
+  instance_type = "t2.micro"
+}
+```
+You can target the resource explicitly:
+**Example**:
+```bash
+terraform apply -target=aws_instance.example
+```
+
 ---
 
 ## Common Workflow

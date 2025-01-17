@@ -14,7 +14,7 @@ terraform {
 
 provider "aws" {
   region  = "ap-south-1"
-  profile = default
+  profile = "default"
 }
 
 # We can hardcode authentication details for a user with access_key, secret_key like below in provider block
