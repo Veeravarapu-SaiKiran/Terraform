@@ -8,10 +8,9 @@ Solution:
 
 
        Steps to Use Multiple Provider Versions:
-         1. Specify Required Providers with Aliases
-            In your terraform block, define the required provider versions.
-
-            Example:
+       1. Specify Required Providers with Aliases
+          In your terraform block, define the required provider versions.
+          Example:
 
             terraform {
                 required_providers {
@@ -33,10 +32,9 @@ Solution:
                 version = "4.5.0"
                 region  = "us-west-2"
             }
-         2. Associate Resources with Specific Providers 
-         In your resource blocks, reference the appropriate provider alias using the provider argument.
-
-         Example:
+       2. Associate Resources with Specific Providers 
+          In your resource blocks, reference the appropriate provider alias using the provider argument.
+          Example:
             ```       
             # Resource using the first provider alias (v1)
             resource "aws_instance" "example_v1" {
