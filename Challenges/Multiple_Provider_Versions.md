@@ -1,9 +1,12 @@
-1. How to use same provider with multiple versions to create different resources.
-   Usecase:
+How to use same provider with multiple versions to create different resources.
+
+Usecase:
        I want to create ec2 instance with one aws provider version and s3 bucket with other provider version.
-   Solution:
+
+Solution:
        To use multiple versions of a provider for different resources in Terraform, you can achieve this by utilizing provider aliases. Each alias allows you to configure and use a different version or configuration of the same provider.
-       
+
+
        Steps to Use Multiple Provider Versions:
          1. Specify Required Providers with Aliases
             In your terraform block, define the required provider versions.
