@@ -2,12 +2,12 @@
 ## Constraints
 
 You can specify a range of versions using vairous operators.
-1. !=  Excludes an exact version number
-2. >=  Greater than or equal to a specified version
-3. <=  Less than or equal to a specified version
-4. >   Greater than a specified version
-5. <   Less than a specified version
-6. ~>  Only the right most version component will be incremented  example: 5.13.0 will allow installation of 5.13.1 but not 5.14.0.
+1.  !=  Excludes an exact version number
+2.  >=  Greater than or equal to a specified version
+3.  <=  Less than or equal to a specified version
+4.  >   Greater than a specified version
+5.  <   Less than a specified version
+6.  ~>  Only the right most version component will be incremented  example: 5.13.0 will allow installation of 5.13.1 but not 5.14.0.
   
 
 ```t
