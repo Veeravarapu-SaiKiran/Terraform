@@ -1,10 +1,10 @@
 # Terraform
 
-1. Terraform is declarative infrastructure as code tool which can manage infratructure of clouds/on-prem
-2. Terraform uses hashicorp configuration language(HCL) to declare the resource creation in terraform manifest files.
-3. Terraform configuration files has an extenstion as ".tf"
-4. Terraform tracks the state of infrastructure to manage the cloud infrastructure.
-5. Terraform cli will talk to API's of cloud's like AWS,AZURE,GCP.
+* Terraform is declarative infrastructure as code tool which can manage infratructure of clouds/on-prem
+* Terraform uses hashicorp configuration language(HCL) to declare the resource creation in terraform manifest files.
+* Terraform configuration files has an extenstion as ".tf"
+* Terraform tracks the state of infrastructure to manage the cloud infrastructure.
+* Terraform cli will talk to API's of cloud's like AWS,AZURE,GCP.
 
 # Terraform Core Workflow Commands
 
